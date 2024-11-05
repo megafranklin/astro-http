@@ -19,6 +19,6 @@ export default defineConfig({
   // }),
   integrations: [mdx(), sitemap()],
 
-  output: 'server',
+  output: 'hybrid',
   adapter: cloudflare(),
 });
